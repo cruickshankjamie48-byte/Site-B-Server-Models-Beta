@@ -1,4 +1,4 @@
-# Site B Custom Models
+# Site B Custom Models Beta
 _Texturepack is made of models from many people all credits are in JSON file for the model_
 
 ## How to get
