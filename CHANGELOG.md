@@ -41,6 +41,8 @@ _- Pack Icon now has SiteB logo_
 - Plushie Copper Golem Standing
 - Adthony's Special Sword
 - Bebra Sword
+- Leviathan axe from GOW
+- Mjolnir from GOW
 
 ### Fixed
 - SpyGlass Texture not rendering as 3D when being used

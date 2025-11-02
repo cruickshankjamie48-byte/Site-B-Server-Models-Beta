@@ -17,7 +17,10 @@ _Texturepack is made of models from many people all credits are in JSON file for
 	Ban Hammer is a mod only texture for ban hammers given to the mods
 
 #### Netherite Axe:
-	Rename a netherite sword to Black Iron Greataxe
+	Rename a netherite axe to 
+	- Black Iron Greataxe
+	- Leviathan
+
 
 #### Shroom Set:
 	Rename any netherite tool to Shroom <item type>
@@ -33,6 +36,10 @@ _Texturepack is made of models from many people all credits are in JSON file for
     
 #### Command Staff:
 	Only Dino can contain its power.
+
+#### Mace:
+	Rename Mace to:
+		- Mjolnir
 
 
 ### Food/Drinks
