@@ -120,6 +120,13 @@
               "model": "minecraft:item/netherite_sword"
             }
           }
+        },
+        {
+          "when": "Bebra",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/weapons/netherite_sword/customswords/bebra"
+          }
         }
       ],
       "fallback": {

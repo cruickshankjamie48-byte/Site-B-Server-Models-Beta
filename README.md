@@ -29,6 +29,7 @@ _Texturepack is made of models from many people all credits are in JSON file for
 #### Netherite Sword:
 	Rename Netherite sword to
 		- Orphan Obliterator - technoblade sword
+		- Bebra - Berserk sword
     
 #### Command Staff:
 	Only Dino can contain its power.

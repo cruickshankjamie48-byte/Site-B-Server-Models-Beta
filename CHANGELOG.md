@@ -40,6 +40,7 @@ _- Pack Icon now has SiteB logo_
 - 3D Brown Mushrooms
 - Plushie Copper Golem Standing
 - Adthony's Special Sword
+- Bebra Sword
 
 ### Fixed
 - SpyGlass Texture not rendering as 3D when being used
