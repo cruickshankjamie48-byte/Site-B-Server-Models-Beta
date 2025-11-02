@@ -84,6 +84,42 @@
               "model": "minecraft:item/netherite_sword"
             }
           }
+        },
+        {
+          "when": "Mᴏᴏɴʟɪɢʜᴛ Gʀᴇᴀᴛsᴡᴏʀᴅ",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:lore",
+            "cases": [
+              {
+                "when": [
+                  {
+                    "text": "",
+                    "extra": [
+                      {
+                        "text": "Intelligence Required",
+                        "color": "aqua",
+                        "bold": false,
+                        "italic": false,
+                        "underlined": false,
+                        "strikethrough": false,
+                        "obfuscated": false
+                      }
+                    ]
+                  }
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/weapons/netherite_sword/customswords/holymoonlightsword"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_sword"
+            }
+          }
         }
       ],
       "fallback": {
