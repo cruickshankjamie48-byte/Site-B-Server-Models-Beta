@@ -127,6 +127,13 @@
             "type": "minecraft:model",
             "model": "minecraft:item/weapons/netherite_sword/customswords/bebra"
           }
+        },
+        {
+          "when": "·÷±‡±𝒮𝒾𝓂𝓅 𝒮𝒾𝓁𝑒𝓃𝒸𝑒𝓇±‡±÷·",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/weapons/netherite_sword/customswords/frop_sword"
+          }
         }
       ],
       "fallback": {

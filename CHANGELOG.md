@@ -43,6 +43,7 @@ _- Pack Icon now has SiteB logo_
 - Bebra Sword
 - Leviathan axe from GOW
 - Mjolnir from GOW
+- Frop's Custom Sword
 
 ### Fixed
 - SpyGlass Texture not rendering as 3D when being used
