@@ -131,3 +131,4 @@ _Texturepack is made of models from many people all credits are in JSON file for
 
 #### Misc:
 	Scroll of Icarian Flight
+	Livi Hearts (get em from livi)
