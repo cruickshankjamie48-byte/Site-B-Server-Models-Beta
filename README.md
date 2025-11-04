@@ -60,6 +60,14 @@ _Texturepack is made of models from many people all credits are in JSON file for
 #### Beers:
 	Sold at The Purple Hydra
 
+#### Hotdogs:
+	Rename golden carrot to
+		-Hotdog
+
+#### Burger:
+	Rename golden carror to
+		-Borger
+
 
 ### Statues/plushies/pets
 
