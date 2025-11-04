@@ -44,6 +44,7 @@ _- Pack Icon now has SiteB logo_
 - Leviathan axe from GOW
 - Mjolnir from GOW
 - Frop's Custom Sword
+- Courthouse Key model (for the actual courthouse key)
 
 ### Fixed
 - SpyGlass Texture not rendering as 3D when being used
