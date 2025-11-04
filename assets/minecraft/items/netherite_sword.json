@@ -134,6 +134,13 @@
             "type": "minecraft:model",
             "model": "minecraft:item/weapons/netherite_sword/customswords/frop_sword"
           }
+        },
+        {
+          "when": "Dark Souls Sword",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/weapons/netherite_sword/customswords/players_dark_soul_sword"
+          }
         }
       ],
       "fallback": {

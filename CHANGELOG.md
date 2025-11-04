@@ -46,6 +46,7 @@ _- Pack Icon now has SiteB logo_
 - Frop's Custom Sword
 - Courthouse Key model (for the actual courthouse key)
 - Livi Hearts (get em from livi)
+- Dark Souls Sword
 
 ### Fixed
 - SpyGlass Texture not rendering as 3D when being used
