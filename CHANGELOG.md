@@ -48,6 +48,7 @@ _- Pack Icon now has SiteB logo_
 - Livi Hearts (get em from livi)
 - Dark Souls Sword
 - Dino Bathwater Painting
+- Leon and NCat Rings
 
 ### Fixed
 - SpyGlass Texture not rendering as 3D when being used
