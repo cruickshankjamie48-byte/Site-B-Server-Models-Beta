@@ -49,6 +49,7 @@ _- Pack Icon now has SiteB logo_
 - Dark Souls Sword
 - Dino Bathwater Painting
 - Leon and NCat Rings
+- Tiny Wrench
 
 ### Fixed
 - SpyGlass Texture not rendering as 3D when being used

@@ -8,6 +8,7 @@
         "when": "Tiny Wrench",
         "model": {
           "type": "minecraft:select",
+          "model": "item/misc/wrench",
           "property": "minecraft:component",
           "component": "minecraft:attribute_modifiers",
           "cases": [
@@ -31,6 +32,13 @@
             "type": "minecraft:model",
             "model": "minecraft:item/gold_nugget"
           }
+        }
+      },
+      {
+        "when": "Jesus <3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/totem/jesus"
         }
       }
     ],
