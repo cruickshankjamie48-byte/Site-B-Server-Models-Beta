@@ -1,42 +1,64 @@
 {
   "model": {
-    "type": "minecraft:select",
-    "property": "minecraft:component",
-    "component": "minecraft:custom_name",
-    "cases": [
-      {
-        "when": "Tiny Wrench",
-        "model": {
-          "type": "minecraft:select",
-          "property": "minecraft:component",
-          "component": "minecraft:attribute_modifiers",
-          "cases": [
-            {
-              "when": [
-                {
-                  "type": "minecraft:scale",
-                  "id": "minecraft:scale",
-                  "amount": -0.5,
-                  "operation": "add_multiplied_base",
-                  "slot": "offhand"
-                }
-              ],
-              "model": {
-                "type": "minecraft:model",
-                "model": "item/misc/wrench"
-              }
-            }
+    "type": "condition",
+    "property": "has_component",
+    "component": "custom_name",
+    "on_true": {
+      "type": "select",
+      "model": "item/diamond",
+      "property": "component",
+      "component": "custom_name",
+      "cases": [
+        {
+          "when": "Aero Engagment Ring",
+          "model": {
+            "type": "model",
+            "model": "item/rings/aero_engagment_ring"
+          }
+        },
+        {
+          "when": [
+            "Leon & I Ring",
+            "NCat & I Ring"
           ],
-          "fallback": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/gold_nugget"
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:lore",
+            "cases": [
+              {
+                "when": [
+                  {
+                    "text": "",
+                    "extra": [
+                      {
+                        "text": "leoncat<3",
+                        "type": "text"
+                      }
+                    ]
+                  }
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/rings/leo_ncat_rings"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond"
+            }
           }
         }
+      ],
+      "fallback": {
+        "type": "model",
+        "model": "item/diamond"
       }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/gold_nugget"
+    },
+    "on_false": {
+      "type": "model",
+      "model": "item/diamond"
     }
   }
 }
