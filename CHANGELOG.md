@@ -47,6 +47,7 @@ _- Pack Icon now has SiteB logo_
 - Courthouse Key model (for the actual courthouse key)
 - Livi Hearts (get em from livi)
 - Dark Souls Sword
+- Dino Bathwater Painting
 
 ### Fixed
 - SpyGlass Texture not rendering as 3D when being used

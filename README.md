@@ -107,6 +107,7 @@ _Texturepack is made of models from many people all credits are in JSON file for
 		- VV RainFall
 		- VV Castle In The Hills
 		- VV Establishing Shot 1
+		- Dino Bathwater
 
 ### Hats
 	Rename paper to:
