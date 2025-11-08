@@ -54,7 +54,16 @@ _- Pack Icon now has SiteB logo_
 ### Fixed
 - SpyGlass Texture not rendering as 3D when being used
 
-## [  v0.4.0] - 
+## [  v0.3.1] - 08-11-2025
 
 ### Fixed
 - Leon's Ring to fit his skin
+- some texture errors on vanillia items
+
+### Changed
+- Ban Hammer requirments to include Lore
+
+### Added (was adding these befre i noticed the bug so they getting added early)
+- Strawberry Milk Bucket
+- Chocolate Milk Bucket
+- Suprise item that will be updated later
