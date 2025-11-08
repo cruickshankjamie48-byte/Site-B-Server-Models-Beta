@@ -178,6 +178,55 @@
               "model": "minecraft:item/diamond"
             }
           }
+        },
+        {
+          "when": "Test 1",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:lore",
+            "cases": [
+              {
+                "when": [
+                  {
+                    "text": "",
+                    "extra": [
+                      {
+                        "text": "This is line 1.",
+                        "type": "text"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "extra": [
+                      {
+                        "text": "This is line 2.",
+                        "type": "text"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "extra": [
+                      {
+                        "text": "I lost count.",
+                        "type": "text"
+                      }
+                    ]
+                  }
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/bedrock"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond"
+            }
+          }
         }
       ],
       "fallback": {
