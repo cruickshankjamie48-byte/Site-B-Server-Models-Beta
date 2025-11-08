@@ -180,7 +180,7 @@
           }
         },
         {
-          "when": "Test 1",
+          "when": "Fake Bedrock",
           "model": {
             "type": "minecraft:select",
             "property": "minecraft:component",
