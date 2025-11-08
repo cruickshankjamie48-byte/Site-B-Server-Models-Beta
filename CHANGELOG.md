@@ -53,3 +53,8 @@ _- Pack Icon now has SiteB logo_
 
 ### Fixed
 - SpyGlass Texture not rendering as 3D when being used
+
+## [  v0.4.0] - 
+
+### Fixed
+- Leon's Ring to fit his skin
