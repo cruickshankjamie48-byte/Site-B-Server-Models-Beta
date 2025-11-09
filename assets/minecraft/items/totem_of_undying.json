@@ -637,6 +637,13 @@
             "type": "minecraft:model",
             "model": "item/pokemon/onix"
           }
+        },
+        {
+          "when": "Player Model Technoblade",
+          "model": {
+            "type": "minecraft:model",
+            "model": "item/players/fullsize/technoblade"
+          }
         }
       ],
       "fallback": {

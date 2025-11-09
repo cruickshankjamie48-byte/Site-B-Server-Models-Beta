@@ -72,3 +72,4 @@ _- Pack Icon now has SiteB logo_
 
 ### Added
 - Onix
+- Technoblade Player model
