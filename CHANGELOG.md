@@ -75,6 +75,8 @@ _- Pack Icon now has SiteB logo_
 - Technoblade Player model
 - Bruni Cute Painting
 - Bruni Meme Painting
+- Hot Coco
+- Jesus, technoblade and otter are avaliable as options for shrink nugget
 
 ### Change
 - Frop's Sword Texture (reduce file size)
