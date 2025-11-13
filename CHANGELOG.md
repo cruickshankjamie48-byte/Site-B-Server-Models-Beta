@@ -73,6 +73,8 @@ _- Pack Icon now has SiteB logo_
 ### Added
 - Onix
 - Technoblade Player model
+- Bruni Cute Painting
+- Bruni Meme Painting
 
 ### Change
 - Frop's Sword Texture (reduce file size)
