@@ -69,6 +69,10 @@ _Texturepack is made of models from many people all credits are in JSON file for
 	Rename golden carror to
 		-Borger
 
+#### Hot Coco
+	Rename Honey bottle to
+		-Hot Coco
+
 
 ### Statues/plushies/pets
 
@@ -90,7 +94,6 @@ _Texturepack is made of models from many people all credits are in JSON file for
 #### FullSize Player Models:
 	Rename Totem of Undying to
 		- Player Model Herobrine
-		- Player Model Technoblade
 
 
 ### Paintings/Artwork
