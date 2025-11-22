@@ -116,6 +116,8 @@ _Texturepack is made of models from many people all credits are in JSON file for
 		- Dino Bathwater
 		- Bruni Cute
 		- Bruni Meme
+		- User Wild
+		- Dino Nude
 
 ### Hats
 	Rename paper to:
@@ -149,3 +151,4 @@ _Texturepack is made of models from many people all credits are in JSON file for
 #### Misc:
 	Scroll of Icarian Flight
 	Livi Hearts (get em from livi)
+	Binoculars (Rename Spy Glass)

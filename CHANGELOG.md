@@ -82,7 +82,12 @@ _- Pack Icon now has SiteB logo_
 - Frop's Sword Texture (reduce file size)
 - Dark Souls Sword (reduce file size)
 
-## [v0.5.0] - 
+## [v0.5.0] - 22-11-2025
 
 ### Added
 - Invisble Sword
+- Ginger Bread Man
+- Ginger Bread Tree
+- Dino Nude Painting
+- User Wild Painting
+- Binoculars (Ohly works in right hand)
