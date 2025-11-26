@@ -74,6 +74,15 @@ _Texturepack is made of models from many people all credits are in JSON file for
 	Rename Honey bottle to
 		-Hot Coco
 
+#### Ginger Bread Cookies
+	Rename cookies to
+		-Gingerbread Man
+		-Gingerbread Tree
+
+#### Candy Canes
+	Rename Golden Carrots to
+		- Candy Cane
+
 
 ### Statues/plushies/pets
 
@@ -95,6 +104,7 @@ _Texturepack is made of models from many people all credits are in JSON file for
 #### FullSize Player Models:
 	Rename Totem of Undying to
 		- Player Model Herobrine
+		- Player Model Technoblade
 
 
 ### Paintings/Artwork
@@ -137,7 +147,7 @@ _Texturepack is made of models from many people all credits are in JSON file for
 	Rename Totem of Undying to
 		- Jesus <3 to get Jesus to protect you
 		- Tank to get a Tank
-		- Technblade to get Technoblade
+		- Technoblade to get Technoblade
 
 #### Smokes:
 	Rename Spyglass to
@@ -147,6 +157,8 @@ _Texturepack is made of models from many people all credits are in JSON file for
 
 #### Bundles:
 	Halloween event 2025 Bundles
+	Small <Colour Here with Capital> Present (must be coresponding bundle colour)
+	Large <Colour Here with Capital> Present (Only Some added) (must be coresponding bundle colour)
 
 #### Misc:
 	Scroll of Icarian Flight

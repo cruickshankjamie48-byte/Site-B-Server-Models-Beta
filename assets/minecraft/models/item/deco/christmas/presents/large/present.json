@@ -2,9 +2,9 @@
 	"format_version": "1.21.6",
 	"credit": "Made by sketchmacaw",
 	"textures": {
-		"0": "item/deco/christmas/blue_present/yellow_ribbon",
-		"1": "item/deco/christmas/blue_present/blue_present",
-		"3": "item/deco/christmas/blue_present/blue_present_top"
+		"0": "item/deco/christmas/present/large/blue/yellow_ribbon",
+		"1": "item/deco/christmas/present/large/blue/blue_present",
+		"3": "item/deco/christmas/present/large/blue/blue_present_top"
 	},
 	"elements": [
 		{

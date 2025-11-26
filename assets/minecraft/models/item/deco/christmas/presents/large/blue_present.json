@@ -1,10 +1,11 @@
 {
 	"format_version": "1.21.6",
 	"credit": "Made by sketchmacaw",
+	"parent": "item/deco/christmas/presents/large/present",
 	"textures": {
-		"0": "item/deco/christmas/green_present/white_ribbon",
-		"1": "item/deco/christmas/green_present/green_present",
-		"3": "item/deco/christmas/green_present/green_present_top"
+		"0": "item/deco/christmas/present/large/blue/yellow_ribbon",
+		"1": "item/deco/christmas/present/large/blue/blue_present",
+		"3": "item/deco/christmas/present/large/blue/blue_present_top"
 	},
 	"elements": [
 		{
