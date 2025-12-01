@@ -655,18 +655,8 @@
         {
           "when": "Plushie LeonSKennedy",
           "model": {
-            "type": "minecraft:condition",
-            "model": "",
-            "property": "minecraft:keybind_down",
-            "keybind": "key.playerlist",
-            "on_true": {
-              "type": "minecraft:model",
-              "model": "item/players/player_plushies/leon_s_wave"
-            },
-            "on_false": {
-              "type": "minecraft:model",
-              "model": "item/players/player_plushies/leon_s"
-            }
+            "type": "minecraft:model",
+            "model": "item/players/player_plushies/leon_s"
           }
         }
       ],

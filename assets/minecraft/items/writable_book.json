@@ -1,0 +1,39 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:writable_book_content",
+    "cases": [
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Leon\nWave"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/players/player_plushies/leon_s_wave"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Leon\nStanding"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/players/player_plushies/leon_s"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/writable_book"
+    }
+  }
+}
