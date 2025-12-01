@@ -8,7 +8,7 @@
         "when": {
           "pages": [
             {
-              "raw": "Leon\nWave"
+              "raw": "Plushie\nLeon\nWave"
             }
           ]
         },
@@ -21,13 +21,208 @@
         "when": {
           "pages": [
             {
-              "raw": "Leon\nStanding"
+              "raw": "Plushie\nLeon\nStand"
             }
           ]
         },
         "model": {
           "type": "minecraft:model",
           "model": "item/players/player_plushies/leon_s"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Painting\nHarry Banana"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/paintings/3x3/banana_harry"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Painting\nLivi Duck"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/paintings/1x1/livi_duck"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Painting\nDino"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/paintings/1x2/dino_painting"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Painting\nTT"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/paintings/3x3/tt_painting"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Painting\nTechno Pond"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/paintings/misc/3x4_technoblade_pond"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Painting\nVV Lighting Strike Pov"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/paintings/misc/vandalieu/vv_lighting_strike_pov"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Painting\nVV Monochrome Dreams"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/paintings/misc/vandalieu/vv_monochrome_dreams"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Painting\nVV RainFall"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/paintings/misc/vandalieu/vv_rainfall"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Painting\nVV Castle In The Hills"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/paintings/misc/vandalieu/vv_castle_in_the_hills"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Painting\nVV Establishing Shot 1"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/paintings/misc/vandalieu/vv_establishing_shot_1"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Painting\nDino Bathwater"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/paintings/1x2/dino_painting2"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Painting\nBruni Cute"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/paintings/1x1/bruni_cute"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Painting\nBruni Meme"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/paintings/1x1/bruni_discord"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Painting\nDino Nude"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/paintings/3x3/dino_nude"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Painting\nUser Wild"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/paintings/3x3/user_wild"
         }
       }
     ],
