@@ -104,7 +104,7 @@ Updated for items to be added to match up with event
 ### Change
 - Reduced textures sizes
 
-## [0.6.0] - 
+## [0.6.0] - 01-12-2025
 
 ### Added
 - Peter Griffin Totem
