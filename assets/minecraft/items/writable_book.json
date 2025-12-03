@@ -986,7 +986,7 @@
         "when": {
           "pages": [
             {
-              "raw": "Weapons\nShroom Hoe"
+              "raw": "Tools\nShroom Hoe"
             }
           ]
         },
@@ -1023,6 +1023,243 @@
             "type": "minecraft:model",
             "model": "minecraft:item/writable_book"
           }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Tools\nShroom Pickaxe"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/shroom_set/shroom_pickaxe"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Tools\nShroom Shovel"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/shroom_set/shroom_shovel"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nSpear of Longinus"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/trident/spear_of_longinus"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nXonnie's Trident"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/trident/xonnies_trident"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Hats\nBag For Head"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/hats/bag_for_head"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Hats\nMiin Glasses"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/hats/miin_glasses"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Hats\nJester Hat"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/hats/jester_hat"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Hats\nMiin Frog Friend"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/hats/miin_frog"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Hats\nFox King Crown"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/hats/fox_crown"
         }
       }
     ],
