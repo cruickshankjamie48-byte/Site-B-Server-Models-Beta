@@ -224,6 +224,806 @@
           "type": "minecraft:model",
           "model": "item/paintings/3x3/user_wild"
         }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Player Model\nHerobrine\nArmor Stand"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/players/fullsize/herobrine"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Player Model\nTechnoblade\nArmor Stand"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/players/fullsize/technoblade"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nFrop Sword"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/netherite_sword/customswords/frop_sword"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nBebra"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/netherite_sword/customswords/bebra"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nInfinity Blade"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/netherite_sword/customswords/infinity_blade_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nMoonLight GreatSword"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/netherite_sword/customswords/holymoonlightsword"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nModern Infinity Blade"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/netherite_sword/customswords/modern_infinity_blade_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nOrphan Obliterator"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/netherite_sword/customswords/orphan_obliterator"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nDark Souls Sword"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/netherite_sword/customswords/players_dark_soul_sword"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nLightSaber\nGreen"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/weapons/netherite_sword/lightsabers/saberlight"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nLightSaber\nPurple"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/netherite_sword/lightsabers/bamfsaber"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nLightSaber\nRed"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/netherite_sword/lightsabers/darthsaber"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nLightSaber\nBlue"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/netherite_sword/lightsabers/skysaber"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nBan Hammer"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/mace/ban_hammer"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nMjolnir"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/mace/mjolnir"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nBlack Iron Greataxe"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/netherite_axe/black_iron_greataxe"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nShroom Axe"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/shroom_set/shroom_axe"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nShroom Sword"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/shroom_set/shroom_sword"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nLeviathan"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/netherite_axe/leviathan"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Weapons\nShroom Hoe"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/weapons/shroom_set/shroom_hoe"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
       }
     ],
     "fallback": {
