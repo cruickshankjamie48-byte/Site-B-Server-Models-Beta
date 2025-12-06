@@ -8,26 +8,39 @@
         "when": {
           "pages": [
             {
-              "raw": "Plushie\nLeon\nWave"
+              "raw": "Plushie\nLeonSKennedy\nWave"
             }
           ]
         },
         "model": {
           "type": "minecraft:model",
-          "model": "item/players/player_plushies/leon_s_wave"
+          "model": "item/players/player_plushies/display/leon_s/leon_s_wave"
         }
       },
       {
         "when": {
           "pages": [
             {
-              "raw": "Plushie\nLeon\nStand"
+              "raw": "Plushie\nLeonSKennedy\nStand"
             }
           ]
         },
         "model": {
           "type": "minecraft:model",
-          "model": "item/players/player_plushies/leon_s"
+          "model": "item/players/player_plushies/display/leon_s/leon_s"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Plushie\nLeonSKennedy\nSit"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/players/player_plushies/display/leon_s/leon_s_sit"
         }
       },
       {
@@ -66,7 +79,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "item/paintings/1x2/dino_painting"
+          "model": "item/paintings/1x2/turtle_bro_dino"
         }
       },
       {
@@ -79,7 +92,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "item/paintings/3x3/tt_painting"
+          "model": "item/paintings/3x3/turtle_bro_harry"
         }
       },
       {
@@ -92,7 +105,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "item/paintings/misc/3x4_technoblade_pond"
+          "model": "item/paintings/3x2/techno_pond"
         }
       },
       {
@@ -105,7 +118,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "item/paintings/misc/vandalieu/vv_lighting_strike_pov"
+          "model": "item/paintings/2x3/vanda_strike"
         }
       },
       {
@@ -118,7 +131,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "item/paintings/misc/vandalieu/vv_monochrome_dreams"
+          "model": "item/paintings/2x3/vanda_dreams"
         }
       },
       {
@@ -131,7 +144,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "item/paintings/misc/vandalieu/vv_rainfall"
+          "model": "item/paintings/2x3/vanda_rainfall"
         }
       },
       {
@@ -144,7 +157,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "item/paintings/misc/vandalieu/vv_castle_in_the_hills"
+          "model": "item/paintings/2x3/vanda_castle"
         }
       },
       {
@@ -157,7 +170,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "item/paintings/misc/vandalieu/vv_establishing_shot_1"
+          "model": "item/paintings/2x3/vanda_town"
         }
       },
       {
@@ -170,7 +183,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "item/paintings/1x2/dino_painting2"
+          "model": "item/paintings/1x2/dino_bath"
         }
       },
       {
@@ -222,7 +235,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "item/paintings/3x3/user_wild"
+          "model": "item/paintings/3x3/user"
         }
       },
       {
@@ -2150,19 +2163,6 @@
         "when": {
           "pages": [
             {
-              "raw": "Plushie\nWandering Trader"
-            }
-          ]
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "item/plushies/display/plushie_wandering_trader"
-        }
-      },
-      {
-        "when": {
-          "pages": [
-            {
               "raw": "Plushie\nWarden"
             }
           ]
@@ -3367,6 +3367,390 @@
             "type": "minecraft:model",
             "model": "minecraft:item/writable_book"
           }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Drink\nStrawberry Milk"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/food/drinks/strawberry_milk_bucket"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Drink\nChocolate Milk"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/food/drinks/chocolate_milk_bucket"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Misc\nF&M Invitation"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/misc/frop_mark_wedding_scroll"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Plushie\nPippin"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/players/player_plushies/pippin_wave"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Plushie\nGollum"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "Admin Book",
+                      "type": "text",
+                      "color": "dark_red",
+                      "bold": false,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    }
+                  ]
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "item/players/player_plushies/gollum"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book"
+          }
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Deco\nBig Cake\nPlain"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/food/big_cake"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Plushie\nPurple Guy\nWave"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/players/player_plushies/display/purple_guy/purple_guy_wave"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Plushie\nPurple Guy\nStand"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/players/player_plushies/display/purple_guy/purple_guy_stand"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Plushie\nPurple Guy\nSit"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/players/player_plushies/display/purple_guy/purple_guy_sit"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Plushie\nLivi Postal\nWave"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/players/player_plushies/display/livi_postal/livi_postal_wave"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Plushie\nLivi Postal\nStand"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/players/player_plushies/display/livi_postal/livi_postal_stand"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Plushie\nLivi Postal\nSit"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/players/player_plushies/display/livi_postal/livi_postal_sit"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Plushie\nLivi Duck\nWave"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/players/player_plushies/display/livi_duck/livi_duck_wave"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Plushie\nLivi Duck\nStand"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/players/player_plushies/display/livi_duck/livi_duck_stand"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Plushie\nLivi Duck\nSit"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/players/player_plushies/display/livi_duck/livi_duck_sit"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Plushie\nDino\nWave"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/players/player_plushies/display/dino/dino_wave"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Plushie\nDino\nStand"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/players/player_plushies/display/dino/dino_stand"
+        }
+      },
+      {
+        "when": {
+          "pages": [
+            {
+              "raw": "Plushie\nDino\nSit"
+            }
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/players/player_plushies/display/dino/dino_sit"
         }
       }
     ],
