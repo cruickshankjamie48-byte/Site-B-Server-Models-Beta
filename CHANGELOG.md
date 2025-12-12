@@ -124,3 +124,8 @@ Updated for items to be added to match up with event
 - Hats can now also be made using book and quill, paper will still be an option if you are wanting a more permant hat
 - Christmas Decoration moved yo book (excluding presents)
 -Pack optimzations
+
+## [0.7.0] - 13-12-2025
+
+### Added
+- Clock custom model components (experimental)
